@@ -5,3 +5,4 @@ var connectionFSM = require('../lib/connectionFSM.js');
 var config = require('./config.js');
 var should = require('should');
 var connection = new connectionFSM(config);
+connection.connect();

@@ -1,5 +1,6 @@
 module.exports = {
     host: "example.com",
     port: 8899,
-    debug :true
+    debug: true,
+    password: "admin"
 }
