@@ -3,7 +3,7 @@
  */
 
 var util = require('util');
-var DEBUG = true;
+var DEBUG = false;
 var connectionFSM = require('./lib/connectionFSM.js');
 
 module.exports = function (RED) {
